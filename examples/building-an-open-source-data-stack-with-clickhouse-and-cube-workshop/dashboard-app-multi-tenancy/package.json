@@ -18,7 +18,7 @@
   "dependencies": {
     "@cube-dev/example-wrapper": "^1.1.10",
     "@cubejs-client/core": "^0.30.74",
-    "@nivo/bar": "^0.80.0",
+    "@nivo/bar": "^0.85.0",
     "@nivo/colors": "^0.79.1",
     "@nivo/core": "^0.80.0",
     "jsonwebtoken": "^8.5.1",
