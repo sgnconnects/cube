@@ -114,13 +114,11 @@
     url-search-params-polyfill "^7.0.0"
     uuid "^8.3.2"
 
-"@cubejs-client/core@^0.30.29", "@cubejs-client/core@^0.30.46":
-  version "0.30.46"
-  resolved "https://registry.yarnpkg.com/@cubejs-client/core/-/core-0.30.46.tgz#c999eda7f150373eb8fe28d31c309e4b6c548938"
-  integrity sha512-nEaMZ/UlQ52HjqFC9x/Lx1VcuSgljaS2ubxSqegjDqkUmAF/aIupMxqwzwKZ//Xxhoxhq4xHi4Df/qbKWl9pqA==
+"@cubejs-client/core@^0.30.60", "@cubejs-client/core@^0.30.74":
+  version "0.30.74"
+  resolved "https://registry.yarnpkg.com/@cubejs-client/core/-/core-0.30.74.tgz#e58d90ece0f15c61434c0cf161ff0856ef7b0ef5"
+  integrity sha512-InZa/nKw1ldzvRui0nuZvLGrtYZOmGmIa1gCrCU4i9wAR7pQjlTL2nK+kZ6XLZ5MsuZGWgi3LZNNRkz1wNeiwA==
   dependencies:
-    "@babel/plugin-transform-runtime" "^7.17.0"
-    "@babel/runtime" "^7.1.2"
     core-js "^3.6.5"
     cross-fetch "^3.0.2"
     dayjs "^1.10.4"
@@ -128,16 +126,14 @@
     url-search-params-polyfill "^7.0.0"
     uuid "^8.3.2"
 
-"@cubejs-client/react@^0.30.30":
-  version "0.30.46"
-  resolved "https://registry.yarnpkg.com/@cubejs-client/react/-/react-0.30.46.tgz#33198a96cc8ef8e640793f126dc38419013f4631"
-  integrity sha512-DBK0b7zHv5b5l3ykESxHCELgsgOG0fshfNsFPRl/AKRPKvBxq75dqJhhRWppeg67lKdLeOG62iDfjKUFEYhaCA==
+"@cubejs-client/react@^0.30.60":
+  version "0.30.74"
+  resolved "https://registry.yarnpkg.com/@cubejs-client/react/-/react-0.30.74.tgz#7ea519adb52629d1323a8668101b3618ebefd529"
+  integrity sha512-gcjqjLHpuxGKMn10xYd/Snhy1LJJklJ5HOn/beFi1eqJauqwCZk5ziFUroY4BejTbKAzwMOrmQFHM/uFfyM0QA==
   dependencies:
     "@babel/runtime" "^7.1.2"
-    "@cubejs-client/core" "^0.30.46"
-    anser "^2.0.1"
+    "@cubejs-client/core" "^0.30.74"
     core-js "^3.6.5"
-    html-entities "^2.3.2"
     ramda "^0.27.0"
 
 "@jridgewell/gen-mapping@^0.3.0":
@@ -1005,11 +1001,6 @@ acorn@^8.5.0:
   resolved "https://registry.yarnpkg.com/acorn/-/acorn-8.8.0.tgz#88c0187620435c7f6015803f5539dae05a9dbea8"
   integrity sha512-QOxyigPVrpZ2GXT+PFyZTl6TtOFc5egxHIP9IlQ+RbupQuX4RkT/Bee4/kQuC02Xkzg84JcT7oLYtDIQxp+v7w==
 
-anser@^2.0.1:
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/anser/-/anser-2.1.1.tgz#8afae28d345424c82de89cc0e4d1348eb0c5af7c"
-  integrity sha512-nqLm4HxOTpeLOxcmB3QWmV5TcDFhW9y/fyQ+hivtDFcK4OQ+pQ5fzPnXHM1Mfcm0VkLtvVi1TCPr++Qy0Q/3EQ==
-
 ansi-styles@^3.2.1:
   version "3.2.1"
   resolved "https://registry.yarnpkg.com/ansi-styles/-/ansi-styles-3.2.1.tgz#41fbb20243e50b12be0f04b8dedbf07520ce841d"
@@ -1445,11 +1436,6 @@ has@^1.0.3:
   integrity sha512-f2dvO0VU6Oej7RkWJGrehjbzMAjFp5/VKPp5tTpWIV4JHHZK1/BxbFRtf/siA2SWTe09caDmVtYYzWEIbBS4zw==
   dependencies:
     function-bind "^1.1.1"
-
-html-entities@^2.3.2:
-  version "2.3.3"
-  resolved "https://registry.yarnpkg.com/html-entities/-/html-entities-2.3.3.tgz#117d7626bece327fc8baace8868fa6f5ef856e46"
-  integrity sha512-DV5Ln36z34NNTDgnz0EWGBLZENelNAtkiFA4kyNOG2tDI6Mz1uSWiq1wAKdyjnJwyDiDO7Fa2SO1CTxPXL8VxA==
 
 htmlnano@^2.0.0:
   version "2.0.2"
