@@ -29,11 +29,11 @@
   ],
   "dependencies": {
     "@cubejs-client/core": "^0.33.12",
-    "@vue/compiler-sfc": "^3.0.11",
+    "@vue/compiler-sfc": "^3.3.5",
     "core-js": "^3.6.5",
     "flush-promises": "^1.0.2",
     "ramda": "^0.27.0",
-    "vue-loader": "^16.2.0"
+    "vue-loader": "^17.1.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
