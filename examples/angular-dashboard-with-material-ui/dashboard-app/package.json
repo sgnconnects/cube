@@ -24,7 +24,7 @@
     "@angular/platform-browser-dynamic": "~10.1.5",
     "@angular/router": "~10.1.5",
     "@cube-dev/example-wrapper": "^1.1.10",
-    "@cubejs-client/core": "^0.21.1",
+    "@cubejs-client/core": "^0.27.35",
     "@cubejs-client/ngx": "^0.21.1",
     "chart.js": "^2.9.3",
     "ng2-charts": "^2.4.2",
