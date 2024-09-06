@@ -30,7 +30,7 @@
   "dependencies": {
     "@aws-sdk/client-s3": "^3.49.0",
     "@aws-sdk/s3-request-presigner": "^3.49.0",
-    "@azure/storage-blob": "^12.9.0",
+    "@azure/storage-blob": "^12.23.0",
     "@cubejs-backend/base-driver": "^0.33.11",
     "@cubejs-backend/jdbc-driver": "^0.33.15",
     "@cubejs-backend/schema-compiler": "^0.33.15",
