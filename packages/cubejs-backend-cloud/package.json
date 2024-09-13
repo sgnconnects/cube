@@ -33,7 +33,7 @@
   "dependencies": {
     "@cubejs-backend/dotenv": "^9.0.2",
     "@cubejs-backend/shared": "^0.33.11",
-    "chokidar": "^3.5.1",
+    "chokidar": "^4.0.0",
     "env-var": "^6.3.0",
     "fs-extra": "^9.1.0",
     "jsonwebtoken": "^8.5.1",
