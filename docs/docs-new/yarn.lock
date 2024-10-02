@@ -589,11 +589,6 @@
   resolved "https://registry.yarnpkg.com/@types/js-yaml/-/js-yaml-4.0.5.tgz#738dd390a6ecc5442f35e7f03fa1431353f7e138"
   integrity sha512-FhpRzf927MNQdRZP0J5DLIdTXhjLYzeUTmLAu69mnVksLH9CJY3IuSeEgbKUki7GQZm0WqDkGzyxju2EZGD2wA==
 
-"@types/katex@^0.11.0":
-  version "0.11.1"
-  resolved "https://registry.yarnpkg.com/@types/katex/-/katex-0.11.1.tgz#34de04477dcf79e2ef6c8d23b41a3d81f9ebeaf5"
-  integrity sha512-DUlIj2nk0YnJdlWgsFuVKcX27MLW0KbKmGVoUHmFr+74FYYNUDAaj9ZqTADvsbE8rfxuVmSFc7KczYn5Y09ozg==
-
 "@types/katex@^0.14.0":
   version "0.14.0"
   resolved "https://registry.yarnpkg.com/@types/katex/-/katex-0.14.0.tgz#b84c0afc3218069a5ad64fe2a95321881021b5fe"
@@ -924,7 +919,7 @@ commander@^4.0.0:
   resolved "https://registry.yarnpkg.com/commander/-/commander-4.1.1.tgz#9fd602bd936294e9e9ef46a3f4d6964044b18068"
   integrity sha512-NOKm8xhkzAjzFx8B2v5OAHT+u5pRQc2UCa2Vq9jYL/31o2wi9mxBA7LIFs3sV5VSC49z6pEhfbMULvShKj26WA==
 
-commander@^8.0.0, commander@^8.3.0:
+commander@^8.3.0:
   version "8.3.0"
   resolved "https://registry.yarnpkg.com/commander/-/commander-8.3.0.tgz#4837ea1b2da67b9c616a67afbb0fafee567bca66"
   integrity sha512-OkTL9umf+He2DZkUq8f8J9of7yL6RJKI24dVITBmNfZBmri9zYZQrKkuXiKhyfPSu8tUhnVBB1iKXevvnlR4Ww==
@@ -1601,13 +1596,6 @@ jsonc-parser@^3.2.0:
   version "3.2.0"
   resolved "https://registry.yarnpkg.com/jsonc-parser/-/jsonc-parser-3.2.0.tgz#31ff3f4c2b9793f89c67212627c51c6394f88e76"
   integrity sha512-gfFQZrcTc8CnKXp6Y4/CBT3fTc0OVuDofpre4aEeEpSBPV5X5v4+Vmx+8snU7RLPrNHPKSgLxGo9YuQzz20o+w==
-
-katex@^0.13.0:
-  version "0.13.24"
-  resolved "https://registry.yarnpkg.com/katex/-/katex-0.13.24.tgz#fe55455eb455698cb24b911a353d16a3c855d905"
-  integrity sha512-jZxYuKCma3VS5UuxOx/rFV1QyGSl3Uy/i0kTJF3HgQ5xMinCQVF8Zd4bMY/9aI9b9A2pjIBOsjSSm68ykTAr8w==
-  dependencies:
-    commander "^8.0.0"
 
 katex@^0.16.0, katex@^0.16.4:
   version "0.16.7"
@@ -2528,11 +2516,6 @@ parse-url@^8.1.0:
   dependencies:
     parse-path "^7.0.0"
 
-parse5@^6.0.0:
-  version "6.0.1"
-  resolved "https://registry.yarnpkg.com/parse5/-/parse5-6.0.1.tgz#e1a1c085c569b3dc08321184f19a39cc27f7c30b"
-  integrity sha512-Ofn/CTFzRGTTxwpNEs9PP93gXShHcTq255nzRYSKe8AkVpZY7e1fpmTfOyoIvjP5HG7Z2ZM7VS9PPhQGW2pOpw==
-
 parse5@^7.0.0:
   version "7.1.2"
   resolved "https://registry.yarnpkg.com/parse5/-/parse5-7.1.2.tgz#0736bebbfd77793823240a23b7fc5e010b7f8e32"
@@ -2758,16 +2741,6 @@ rehype-katex@^6.0.2:
     katex "^0.16.0"
     unist-util-visit "^4.0.0"
 
-rehype-parse@^8.0.0:
-  version "8.0.4"
-  resolved "https://registry.yarnpkg.com/rehype-parse/-/rehype-parse-8.0.4.tgz#3d17c9ff16ddfef6bbcc8e6a25a99467b482d688"
-  integrity sha512-MJJKONunHjoTh4kc3dsM1v3C9kGrrxvA3U8PxZlP2SjH8RNUSrb+lF7Y0KVaUDnGH2QZ5vAn7ulkiajM9ifuqg==
-  dependencies:
-    "@types/hast" "^2.0.0"
-    hast-util-from-parse5 "^7.0.0"
-    parse5 "^6.0.0"
-    unified "^10.0.0"
-
 rehype-pretty-code@0.9.4:
   version "0.9.4"
   resolved "https://registry.yarnpkg.com/rehype-pretty-code/-/rehype-pretty-code-0.9.4.tgz#ab214026b530890c7a2e14c4f0881483e39e9cbc"
@@ -2796,18 +2769,10 @@ remark-gfm@^3.0.1:
     micromark-extension-gfm "^2.0.0"
     unified "^10.0.0"
 
-remark-html-katex@^4.0.1:
-  version "4.0.1"
-  resolved "https://registry.yarnpkg.com/remark-html-katex/-/remark-html-katex-4.0.1.tgz#64c88966d0d88b7cddfa627c1bbd9b575ab24733"
-  integrity sha512-I5tnyNDxQTIcyZ/Y6/evSaN1naKKiovD0hgizkSseOWLm589uu8AF/LzL7NxOw2ZWqM7PoaGh7N8ACywe+QQUA==
-  dependencies:
-    "@types/katex" "^0.11.0"
-    "@types/mdast" "^3.0.0"
-    katex "^0.13.0"
-    rehype-parse "^8.0.0"
-    unified "^10.0.0"
-    unist-util-remove-position "^4.0.0"
-    unist-util-visit "^4.0.0"
+remark-html-katex@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/remark-html-katex/-/remark-html-katex-5.0.0.tgz#82a8f23f7c93b1bada7e6570d279e4d36e3a651b"
+  integrity sha512-ttc08gJX9OHfnfKuXxZrNHo0YtD4D6Ouo4LGvXmdZsy1136mbt99pukie284h7LxFrTeCpWEbXH7Zq2tiM564g==
 
 remark-math@^5.1.1:
   version "5.1.1"
