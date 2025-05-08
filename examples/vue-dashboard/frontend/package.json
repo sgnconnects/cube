@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "@cube-dev/example-wrapper": "^1.1.10",
-    "@cubejs-client/core": "^0.4.5",
+    "@cubejs-client/core": "^0.30.60",
     "@cubejs-client/vue": "^0.7.0",
     "chart.js": "^2.8.0",
     "core-js": "^2.6.5",
