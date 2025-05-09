@@ -6,7 +6,7 @@
     "@apollo/client": "^3.5.6",
     "@cube-dev/example-wrapper": "^1.1.10",
     "@testing-library/jest-dom": "^5.11.4",
-    "@testing-library/react": "^13.3.0",
+    "@testing-library/react": "^16.0.0",
     "@testing-library/user-event": "^14.2.1",
     "apollo-link-http": "^1.5.17",
     "chart.js": "^3.6.2",
