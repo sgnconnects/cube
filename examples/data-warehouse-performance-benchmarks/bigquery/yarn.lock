@@ -2,19 +2,11 @@
 # yarn lockfile v1
 
 
-"@babel/runtime@^7.1.2":
-  version "7.15.3"
-  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.15.3.tgz#2e1c2880ca118e5b2f9988322bd8a7656a32502b"
-  integrity sha512-OvwMLqNXkCXSz1kSm58sEsNuhqOx/fKpnUnKnFB5v8uDda5bLNEHNgKPvhDN6IU0LDcnHQ90LlJ0Q6jnyBSIBA==
+"@cubejs-client/core@^0.30.60":
+  version "0.30.74"
+  resolved "https://registry.yarnpkg.com/@cubejs-client/core/-/core-0.30.74.tgz#e58d90ece0f15c61434c0cf161ff0856ef7b0ef5"
+  integrity sha512-InZa/nKw1ldzvRui0nuZvLGrtYZOmGmIa1gCrCU4i9wAR7pQjlTL2nK+kZ6XLZ5MsuZGWgi3LZNNRkz1wNeiwA==
   dependencies:
-    regenerator-runtime "^0.13.4"
-
-"@cubejs-client/core@^0.28.10":
-  version "0.28.25"
-  resolved "https://registry.yarnpkg.com/@cubejs-client/core/-/core-0.28.25.tgz#77f378957ffcaf860d902067001a4e327cbb01d5"
-  integrity sha512-9/ef3449JnNAlsQAFloZUePGV8qlaj4HDV4omRePutdGvuSJGmTjXs53fGUYN1oLAjF1IREr2w6xl0C4xAl1TA==
-  dependencies:
-    "@babel/runtime" "^7.1.2"
     core-js "^3.6.5"
     cross-fetch "^3.0.2"
     dayjs "^1.10.4"
@@ -426,11 +418,6 @@ readable-stream@^3.1.1:
     inherits "^2.0.3"
     string_decoder "^1.1.1"
     util-deprecate "^1.0.1"
-
-regenerator-runtime@^0.13.4:
-  version "0.13.9"
-  resolved "https://registry.yarnpkg.com/regenerator-runtime/-/regenerator-runtime-0.13.9.tgz#8925742a98ffd90814988d7566ad30ca3b263b52"
-  integrity sha512-p3VT+cOEgxFsRRA9X4lkI1E+k2/CtnKtU4gcxyaCUreilL/vqI6CdZ3wxVUx3UOUg+gnUOQQcRI7BmSI656MYA==
 
 retry-request@^4.2.2:
   version "4.2.2"
