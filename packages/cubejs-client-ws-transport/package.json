@@ -19,7 +19,7 @@
     "lint:fix": "eslint --fix src/* --ext .ts"
   },
   "dependencies": {
-    "@babel/runtime": "^7.1.2",
+    "@babel/runtime": "^7.26.10",
     "@cubejs-client/core": "^0.33.12",
     "core-js": "^3.6.5",
     "isomorphic-ws": "^4.0.1",
