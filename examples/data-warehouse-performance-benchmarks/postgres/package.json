@@ -11,7 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@cubejs-client/core": "^0.28.10",
+    "@cubejs-client/core": "^0.30.60",
     "jsonwebtoken": "^8.5.1",
     "pg": "^8.7.3"
   }
