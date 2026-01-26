@@ -33,7 +33,7 @@
     "gatsby-plugin-react-svg": "^3.0.1",
     "loader-utils": "^1.2.3",
     "lockr": "^0.8.5",
-    "lodash": "^4.17.20",
+    "lodash": "^4.17.23",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-helmet": "^5.2.0",
